@@ -1,0 +1,92 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center><span class="glyphicon glyphicon-fire"></span>Friend Finder</h1>
+            <hr>
+            <h2 class="text-center">Fill out the survey to get matched with a new friend!</h2>
+            <br>
+
+            <div class="text-center">
+                <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="
+                glyphicon glyphicon-list-alt"></span>View Tables</button></a>
+                <a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="
+                glyphicon glyphicon-credit-card"></span>Make Reservation</button></a>
+            </div>
+        </div>
+
+        <div>
+            <h1>Survey:</h1>
+            <br> <br>
+            <h4>Name:</h4>
+            <input type="text" name="q" id="name" class="form" required>
+            <h4>Photo Link:</h4>
+            <input type="text" name="q" id="photo" class="form" required>
+            <br>
+            <h3 strong>Question 1:</h3>
+            <h4>I enjoy being active and being outdoors.</h4>
+            <select data-placeholder="" class="select-options" id="q1">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3 strong>Question 2:</h3>
+            <h4>I enjoy reading and/or quiet time.</h4>
+            <select data-placeholder="" class="select-options" id="q1">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            <h3 strong>Question 3:</h3>
+            <h4>I would describe myself as being the life of the party.</h4>
+            <select data-placeholder="" class="select-options" id="q1">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3 strong>Question 4;</h3>
+            <h4>I enjoy trying and experiencing new things.</h4>\<select data-placeholder="" class="select-options" id="q1">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3 strong>Question 5:</h3>
+                <h4>I am an animal-lover.</h4>
+                <select data-placeholder="" class="select-options" id="q1">
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <br> <br>
+                    <button type="submit" id="submit">Submit</button>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> | <a 
+                href="https://github.com/afhaque/HotRestaurant">Github Repo</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
